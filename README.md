@@ -29,7 +29,7 @@ ML Engineer in the Making · DIT University, Dehradun
 
 | Project | Stack | Highlights |
 |---|---|---|
-| [🔍 Adaptive Fraud Detection MLOps](https://github.com/MohitParmar78/adaptive-fraud-detection-mlops) | XGBoost, FastAPI, Kafka, Docker | Real-time fraud detection pipeline with MLOps automation |
+| [🔍 Adaptive Fraud Detection MLOps](https://github.com/MohitParmar78/adaptive-fraud-detection-mlops) | XGBoost, FastAPI, SHAP, Evidently AI | Real-time fraud detection pipeline with MLOps automation |
 | [🛡️ Network Security Phishing Detector](https://github.com/MohitParmar78/NetworkSecurityProject) | scikit-learn, FastAPI, MongoDB, MLflow | End-to-end phishing URL classification with CI/CD on DagsHub |
 | [📊 Student Performance Predictor](https://github.com/MohitParmar78/student-performance-predictor) | scikit-learn, Flask, EDA | ML web app predicting exam scores with full EDA + model pipeline |
 
