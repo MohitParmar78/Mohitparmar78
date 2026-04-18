@@ -21,7 +21,7 @@ ML Engineer in the Making · DIT University, Dehradun
 - 🔭 Building **end-to-end ML & MLOps systems** for real-world problems
 - 🛠️ Focused on **production-grade pipelines** with FastAPI, Docker, MLflow & CI/CD
 - 📌 Targeting **Data Science / ML Engineering** roles — placement season July 2025
-- 💡 Interests: Fraud Detection · Network Security · Explainable AI · NLP . LLM . DL
+- 💡 Interests: Fraud Detection · Network Security · Explainable AI · NLP . LLM . DL . RAG . TRANSFORMERS
 
 ---
 
