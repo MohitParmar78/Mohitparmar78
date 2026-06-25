@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Dynamic Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Mohit%20Parmar&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=ML%20Engineer%20%7C%20MLOps%20%7C%20AI%20Systems&descAlignY=55&descSize=20" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Mohit%20Parmar&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=ML%20Engineer%20%7C%20MLOps%20%7C%20Generative%20AI&descAlignY=55&descSize=20" />
 
 <!-- Typing animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6AD3F7&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=60&lines=Building+production-ready+ML+systems+%F0%9F%9A%80;XGBoost+%7C+FastAPI+%7C+MLOps+%7C+Deep+Learning;Turning+data+into+intelligent+decisions+%F0%9F%A4%96)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6AD3F7&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=60&lines=Building+production-ready+ML+%26+GenAI+systems+%F0%9F%9A%80;LangGraph+%7C+MLOps+%7C+FastAPI+%7C+LLMs+%7C+Deep+Learning;Turning+data+into+intelligent+decisions+%F0%9F%A4%96)](https://git.io/typing-svg)
 
 </div>
 
@@ -12,55 +12,87 @@
 
 ## 👋 About Me
 
-I'm **Mohit Parmar**, a B.Tech Computer Science student based in Dehradun, India — passionate about building **production-ready ML systems** that solve real-world problems. I specialize in the full ML lifecycle: from data pipelines and model training to deployment, monitoring, and automated retraining.
+I'm **Mohit Parmar**, a B.Tech Computer Science student based in Dehradun, India — passionate about building **production-ready ML and Generative AI systems** that solve real-world problems. I specialize in the full ML lifecycle: from data pipelines and model training to LLM-powered agents, deployment, monitoring, and automated retraining.
 
-- 🔭 Currently building end-to-end **MLOps pipelines** and **AI-powered security systems**
-- 🧠 Deep interest in **Explainable AI**, **Fraud Detection**, and **Network Security**
-- 🌱 Actively expanding into **LLMs**, **RAG systems**, and **cloud-native ML**
-- 💡 I believe ML is only valuable when it's deployed, monitored, and trusted
+- 🔭 Currently building **LangGraph multi-agent systems**, **MLOps pipelines**, and **AI-powered health & career platforms**
+- 🧠 Deep interest in **LLMs**, **Agentic AI**, **Explainable AI**, **Fraud Detection**, and **Network Security**
+- 🌱 Actively expanding into **RAG systems**, **cloud-native ML**, and **AI product development**
+- 💡 I believe AI is only valuable when it's deployed, monitored, trusted — and actually useful to people
 - 📍 Based in Dehradun, India (originally from Haryana)
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🔐 [Adaptive Real-Time Fraud Detection System](https://github.com/MohitParmar78/adaptive-fraud-detection-mlops)
-> **Industry-grade MLOps pipeline for financial fraud detection**
+### 🤖 [PlacementGPT-AI](https://github.com/MohitParmar78/PlacementGPT-AI)
+> **LangGraph-powered AI career assistant — resume analysis, ATS optimization, interview prep & personalized roadmaps**
 
-Built a complete production ML system end-to-end — not just a model, but a full system.
+A full-stack GenAI application that acts as a personal career coach using multi-agent orchestration.
 
 | Component | Technology |
-|-----------|-----------|
-| ML Model | XGBoost + Random Forest Ensemble |
-| Backend API | FastAPI (REST) |
+|---|---|
+| AI Workflow | LangGraph (multi-agent orchestration) |
+| LLM | Groq API + Llama 3.3 70B |
+| Backend | FastAPI |
 | Frontend | Streamlit |
-| Explainability | SHAP (feature-level contributions) |
+| PDF Reports | ReportLab |
+| ML | Scikit-learn, NLP parsing |
+
+**What it does end-to-end:**
+- 📄 Parses resume PDFs and extracts structured sections (skills, projects, experience, certifications)
+- 🎯 ATS scoring with keyword match %, matched/missing skills, and optimization recommendations
+- 🧠 Skill gap analysis for ML Engineer, Data Scientist, Backend Developer roles
+- 🎤 Generates personalized interview questions (technical, conceptual, project-based)
+- 🔄 Dynamic follow-up questions based on candidate answers for realistic mock interviews
+- 📊 AI evaluation with scores, strengths, weaknesses, and a week-by-week learning roadmap
+- 📑 Auto-generates professional PDF assessment reports
+
+[![View Code](https://img.shields.io/badge/View_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/MohitParmar78/PlacementGPT-AI)
+
+---
+
+### 🔐 [Adaptive Real-Time Fraud Detection System](https://github.com/MohitParmar78/adaptive-fraud-detection-mlops)
+> **Industry-grade MLOps pipeline for financial fraud detection with drift monitoring & auto-retraining**
+
+| Component | Technology |
+|---|---|
+| ML Model | XGBoost + Random Forest Ensemble |
+| Backend API | FastAPI |
+| Frontend | Streamlit |
+| Explainability | SHAP |
 | Drift Detection | Evidently AI |
 | Database | SQLite |
-| Retraining | Automated pipeline |
 
 **Key Highlights:**
 - 🎯 Handles 284,807 transactions with highly imbalanced data (SMOTE)
 - 📊 Real-time SHAP explanations for every prediction
 - 🔄 Automated drift detection + retraining loop
-- 🚀 Deployed on Render (API) + Streamlit Cloud (UI)
+- 🚀 Deployed on Render + Streamlit Cloud
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Streamlit-FF4B4B?style=for-the-badge)](https://adaptive-fraud-detection-mlops-bdz8nkbi4d3uxftf2c57v3.streamlit.app/)
 [![View Code](https://img.shields.io/badge/View_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/MohitParmar78/adaptive-fraud-detection-mlops)
 
 ---
 
+### 🧠 [MindGuard — AI Mental Health System](https://github.com/MohitParmar78/MindGuard-AI-Mental-Health-System)
+> **AI-powered mental health support system with intelligent conversational analysis**
+
+A compassionate AI system that combines NLP and ML to provide mental health support, mood analysis, and behavioral insights.
+
+- 🐍 Python + Jupyter Notebooks (research + production)
+- 🧪 Modular `src/` architecture with `app/` serving layer
+- 📊 Data-driven mental health assessment pipeline
+
+[![View Code](https://img.shields.io/badge/View_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/MohitParmar78/MindGuard-AI-Mental-Health-System)
+
+---
+
 ### 🛡️ [Network Security — Phishing Detection System](https://github.com/MohitParmar78/NetworkSecurityProject)
-> **End-to-end ML pipeline for phishing URL detection with CI/CD**
+> **End-to-end ML pipeline for phishing URL detection with Docker + CI/CD**
 
-A production-grade network security project demonstrating MLOps best practices.
-
-**Key Highlights:**
-- 🐳 Dockerized deployment for environment consistency
-- 🔄 GitHub Actions CI/CD pipeline (`.github/workflows`)
-- 🍃 MongoDB integration for data storage
-- ⚡ FastAPI serving layer with modular architecture
-- 📦 Clean project packaging with `setup.py`
+- 🐳 Dockerized deployment, GitHub Actions CI/CD pipeline
+- 🍃 MongoDB integration + FastAPI serving layer
+- 📦 Production-grade packaging with `setup.py`
 
 [![View Code](https://img.shields.io/badge/View_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/MohitParmar78/NetworkSecurityProject)
 
@@ -75,13 +107,18 @@ A production-grade network security project demonstrating MLOps best practices.
 
 ## 🛠️ Tech Stack
 
-### Languages & Core
+### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
+### Generative AI & LLMs
+![LangGraph](https://img.shields.io/badge/LangGraph-Multi--Agent-4B8BBE?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-AI_Chains-1C3A5E?style=for-the-badge)
+![Groq](https://img.shields.io/badge/Groq-Llama_3.3_70B-F55036?style=for-the-badge)
+
 ### Machine Learning & AI
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-2496ED?style=for-the-badge&logo=xgboost&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-2496ED?style=for-the-badge)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![SHAP](https://img.shields.io/badge/SHAP-Explainability-6C3483?style=for-the-badge)
@@ -93,7 +130,7 @@ A production-grade network security project demonstrating MLOps best practices.
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Evidently AI](https://img.shields.io/badge/Evidently_AI-Monitoring-orange?style=for-the-badge)
 
-### Databases & Storage
+### Databases
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
@@ -142,11 +179,11 @@ A production-grade network security project demonstrating MLOps best practices.
 
 ### 💬 My Philosophy
 
-*"A model that isn't deployed is just a research paper. I build systems that work in the real world."*
+*"A model that isn't deployed is just a research paper. An agent that doesn't act is just a chatbot. I build systems that work."*
 
 ---
 
-**Open to:** ML Engineer roles, MLOps internships, AI/Data Science opportunities
+**Open to:** ML Engineer · MLOps · Generative AI · AI/Data Science internships & roles
 
 ![Profile Views](https://komarev.com/ghpvc/?username=MohitParmar78&color=6AD3F7&style=for-the-badge&label=Profile+Views)
 
